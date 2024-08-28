@@ -6,6 +6,16 @@
 	--color-link-hover: #fa7921;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-bg: #0c0e0f;
+		--color-fg: #edeff0;
+		--color-link: #8f9191;
+		--color-link-visited: #668f8b;
+		--color-link-hover: #fa7921;
+	}
+}
+
 html,
 body {
 	background: var(--color-bg);
